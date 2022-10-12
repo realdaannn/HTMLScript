@@ -1,0 +1,10 @@
+      <div class="navBarTop">
+        \{
+          var str = "";
+          const hds = ['Home', 'Popular', 'Discover', 'other'];
+          for(h in hds){
+            str += '<span class="placeholderTitleTop"> </span>';
+          }
+          return str;
+        \}
+      </div>

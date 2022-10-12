@@ -1,0 +1,72 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    margin:0%;
+    background-color: black;
+}
+.navBarTop{
+    height: 15%;
+    min-height: 15%;
+    width: 100%;
+    background-color: blue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.navBarSide{
+    height: 85%;
+    min-height: 85%;
+    width: 15%;
+    background-color: cornflowerblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+    position: absolute;
+    top:15%;
+    left:15%;
+    width: 85%;
+    min-width: 85%;
+    height: 85%;
+    min-height: 85%;
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.placeholderTitleTop{
+    height: 80%;
+    min-height: 80%;
+    background-color: grey;
+    width: 15%;
+    min-width: 15%;
+    border-radius: 10px;
+    border: 2px;
+}
+.placeholderTitleSide{
+    height: 15%;
+    min-height: 15%;
+    background-color: grey;
+    width: 80%;
+    min-width: 80%;
+    border-radius: 10px;
+    border: 2px;
+}
+.placeholderContent{
+    height: 80%;
+    min-height: 80%;
+    background-color: grey;
+    width: 80%;
+    min-width: 80%;
+    border-radius: 10px;
+    border: 2px;
+}

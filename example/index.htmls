@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!-- Copyright Daniel Rooke 18/08/2022 -->
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="/main.css"> -->
+        \#style main.css
+    </head>
+    <body>
+      \#include html/topnav.htmls
+      \#include html/sidenav.htmls
+      <div class="content">
+        <div class="placeholderContent" style="height:10%; min-height:10%;"></div>
+        <div class="placeholderContent" style="height:40%; min-height:40%;"></div>
+        <div class="placeholderContent" style="height:20%; min-height:20%;"></div>
+      </div>
+    </body>
+</html>
